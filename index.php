@@ -69,9 +69,12 @@ $currentPage = "Home";
 <!-- Vision and Mission -->
 <section id="landing-page-vision-mission">
 <div class="container">
-  <div class="row p-4">
-    <div class="col-sm-6">
-      <h4>Our Mission</h4>
+  <div class="pt-5 text-muted text-center">
+    <h4>#WeAreEcoMoran!</h4>
+  </div>
+  <div class="row p-5 gx-2">
+    <div class="col-md-6">
+      <h5>Our Mission</h5>
       <p>
         To equip children with attitudes, values, knowledge, and 
         skills necessary to rethink and change current and future 
@@ -80,12 +83,12 @@ $currentPage = "Home";
       </p>
     </div>
 
-    <div class="col-sm-6">
-      <h4>Our Vision</h4>
+    <div class="col-md-6">
+      <h5>Our Vision</h5>
       <p>
-      To achieve the goal of global sustainability and foster global 
-      citizenship by positively influencing, shaping and teaching 
-      tomorrow’s leaders, professionals, and innovators.
+        To achieve the goal of global sustainability and foster global 
+        citizenship by positively influencing, shaping and teaching 
+        tomorrow’s leaders, professionals, and innovators.
       </p>
     </div>
   </div>
@@ -94,17 +97,7 @@ $currentPage = "Home";
 
 
 
-<section id="landing-page-social-media">
-  <div class="container">
-    <div class="d-flex flex-column justify-content-center align-items-center text-center p-5">
-      <p class="text-muted lead">#EcoMoran</p>
-      <h4 class="p-3">You can follow our stories on Social Media!</h4>
-      <p><a href="https://www.instagram.com/_ecomoran/" target="_blank" class="btn btn-outline-dark"> <i class="bi bi-instagram"></i> Follow Us</a></p>
-    </div>
-  </div>
-</section>
-
-
+<?php include 'includes/social-media-follow.php';?>
 
 
 <section id="landing-page-learn">
@@ -116,11 +109,11 @@ $currentPage = "Home";
     <div class="d-flex flex-wrap align-items-center justify-content-evenly p-3" id="card-box-learn" style="min-height:inherit;">
       <div class="border shadow-sm m-2 p-3">
         <h4>Knowledge</h4>
-        <p class="lead">Our Curriculum </p>
+        <p class="lead">Our Curriculum</p>
         <p>
         Provide the children with new  insight and knowledge on different elements of the environment and nature.
         </p>
-        <p><a href="https://ecomoran.wixsite.com/ecomoran/our-curriculum" class="container-fluid">Show Me How</a></p>
+        <p><a href="https://ecomoran.wixsite.com/ecomoran/our-curriculum" class="btn btn-outline-dark">Show Me How</a></p>
       </div>
 
       <div class=" border shadow-sm  m-2 p-3">
@@ -130,12 +123,14 @@ $currentPage = "Home";
         <p>
         Allow the children to learn new skills that can contribute to environmental as well as their own personal well-being.
         </p>
+        <p><a href="https://ecomoran.wixsite.com/ecomoran/our-curriculum" class="btn btn-outline-dark">Our Curriculum</a></p>
       </div>
 
       <div class=" border shadow-sm  m-2 p-3">
         <h4>The Organic Garden</h4>
         <p class="lead">Hands-on Activities </p>
         <p>We have set up an organic/kitchen garden in the establishment we are working at where the children have the responsibility to take care of the garden. We will be setting up a kitchen garden in each establishment we engage with.  </p>
+        <p><a href="https://ecomoran.wixsite.com/ecomoran/blog" class="btn btn-outline-dark">Our Blog</a></p>
       </div>
     </div>
   </div>

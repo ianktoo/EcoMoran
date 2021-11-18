@@ -30,10 +30,10 @@ $currentPage = 'Our Curriculum';
     
     <!-- Content-->
 
-    <section class="py-4">
+    <section class="py-5" id="our-curriculum">
         <div class="container">
             <div class="row">
-                <div class="col-sm-9">
+                <div class="">
                     <p>
                     Tomorrow’s leaders need to be equipped for tomorrow’s challenges, and we must adequately prepare our children for the future they will inherit. We have designed an interactive and engaging environmental education curriculum that includes outdoor and hands-on learning activities, games, quizzes, and art activities for a generation where more children are increasingly disconnected from nature as they have grown up indoors. Studies have also shown that environmental education can help children perform better in social studies, science, language arts, and math.
                     </p>
@@ -43,65 +43,19 @@ $currentPage = 'Our Curriculum';
                     </p>
                 </div>
 
-                <div class="col-sm-3">
-
-                </div>
+               
             </div>
         </div>
     </section>
-
-
-
-    <!-- Pillars -->
-    <section class="py-5">
-        
-        <div class="container">
-        <h4>Our Pillars</h4>
-            <div class="row g-3">
-                <div class="col-sm-3 col-xs-6  text-center">
-                    <div class="card" style="">
-                        <img src="images/brand/logos-plain-background/black-logo-on-grey-bg.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h6 class="card-title">Water</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6  text-center">
-                    <div class="card" style="">
-                        <img src="images/brand/logos-plain-background/black-logo-on-grey-bg.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h6 class="card-title">Ecology and Climate Change </h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3 col-xs-6 text-center">
-                    <div class="card" style="">
-                        <img src="images/brand/logos-plain-background/black-logo-on-grey-bg.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h6 class="card-title">Food </h6>
-                        </div>
-                    </div>                    
-                </div>
-
-                
-                <div class="col-sm-3 col-xs-6  text-center">
-                    <div class="card" style="">
-                        <img src="images/brand/logos-plain-background/black-logo-on-grey-bg.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h6 class="card-title">Energy </h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End content-->
 
     <!-- notices -->
     <?php include 'includes/default-notice.php';?>
     <!-- notices -->
+
+
+    <?php include 'includes/social-media-follow.php';?>
+
+    <!-- End content-->
     
     <!-- Footer -->
     <?php include 'includes/footer.php';?>

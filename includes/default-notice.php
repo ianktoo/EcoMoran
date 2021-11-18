@@ -6,7 +6,7 @@
                         <h5 class="text-light">Become a volunteer!</h5>
                         <p class="text-muted">Are you passionate about children and environmental education? Would you like to join our team and put your skills to good use?</p>
                    
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpxnIpJYrEFq_twcYibzGrJD-VZV-IeJfZapZ0BbVV5M_rXw/viewform?usp=sf_link" targer="_blank" class="btn btn-success"><i class="bi bi-hand-thumbs-up"></i> Volunteer</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpxnIpJYrEFq_twcYibzGrJD-VZV-IeJfZapZ0BbVV5M_rXw/viewform?usp=sf_link" target="_blank" class="btn btn-success"><i class="bi bi-hand-thumbs-up"></i> Volunteer</a>
                  
             </div>
 
