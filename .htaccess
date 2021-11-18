@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteRule ^about-us$ about-us.php [NC]
+RewriteRule ^our-curriculum$ our-curriculum.php [NC]
+RewriteRule ^our-stories$ our-stories.php [NC]
+RewriteRule ^contact-us$ contact-us.php [NC]
+RewriteRule ^faqs$ faqs.php [NC]
+RewriteRule ^get-involved$ get-involved.php [NC]
+RewriteRule ^get-involved$ get-involved.php [NC]
+
+ErrorDocument 404 /errors/404.php
+ErrorDocument 403 /errors/403.php
+ErrorDocument 500 /errors/500.php
+
+RewriteRule ^404$ 404.php [NC]
+RewriteRule ^403$ 403.php [NC]
+RewriteRule ^500$ 500.php [NC]

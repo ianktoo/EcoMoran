@@ -1,0 +1,24 @@
+User-agent: Googlebot
+Disallow: /images/
+User-agent: Googlebot
+Disallow: /classes/
+User-agent: Googlebot
+Disallow: /css/
+User-agent: Googlebot
+Disallow: /errors/
+User-agent: Googlebot
+Disallow: /node_modules/
+User-agent: Googlebot
+Disallow: /src/
+User-agent: Googlebot
+Disallow: /includes/
+User-agent: Googlebot
+Disallow: /svg/
+User-agent: Googlebot
+Disallow: /vendor/
+
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ecomoran.org/sitemap.xml
