@@ -30,12 +30,28 @@ $currentPage = 'Get Involved';
     </section>    
 
 
+
+    <section class="py-5">
+        <div class="container">
+            <ol>
+                <li>Do you want to be a part of our environmental education initiative? </li>
+
+                <li>Are you passionate about marginalized children and their education?</li>
+                <li> Do you want to champion tomorrow's leaders, professionals, and pioneers to ensure a just, healthy and sustainable future for all?</li>
+            </ol>
+
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfpxnIpJYrEFq_twcYibzGrJD-VZV-IeJfZapZ0BbVV5M_rXw/viewform?usp=sf_link" target="_blank">Join us</a> as a volunteer, partner or sponsor!</p>
+        </div>
+    </section>
+
+
     <!-- notices -->
 <?php include 'includes/default-notice.php';?>
 <!-- notices -->
 
     <!-- End content-->
 
+    <?php include 'includes/social-media-follow.php';?>
     
     <!-- Footer -->
     <?php include 'includes/footer.php';?>
