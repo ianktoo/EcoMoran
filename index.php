@@ -11,11 +11,12 @@ $currentPage = "Home";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta property="og:title" content="EcoMoran : Home" />
+    <meta property="og:title" content="EcoMoran Home" />
     <meta property="og:site_name" content="EcoMoran" />
     <meta property="og:type" content="website" />
     <meta property="og:url"content ="https://ecomoran.org/"/>
-    
+    <meta property="og:description" content='Eco Moran is an initiative that focuses on providing wholesome, informative, interactive and enjoyable environmental education to disadvantaged and marginalized children specifically between the ages of 6 and 12. "Moran" is a Maasai word that means "Warrior".' />
+    <meta property="og:image" content="https://ecomoran.org/images/brand/logos-plain-background/logo-on-green-bg.png" />
     <!-- css -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Bootstrap Icons -->
