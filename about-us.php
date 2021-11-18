@@ -13,6 +13,13 @@ $currentPage = 'About Us';
     <?php include 'includes/styles.php'?> 
     <?php include 'includes/google-analytics.php';?>
 
+    <meta property="og:title" content="About EcoMoran" />
+    <meta property="og:site_name" content="EcoMoran" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url"content ="https://ecomoran.org/about-us"/>
+    <meta property="og:description" content='We believe that in order to achieve the goal of sustainability, we should majorly focus on children as they are the future of the world we hope to see: a green, self-sustaining world. ' />
+    <meta property="og:image" content="https://ecomoran.org/images/our-projects/martha-care-home/Ecomoran-class-session.jpg" />
+
     <title>Eco Moran | <?php echo $currentPage?></title>
 </head>
 <body>
