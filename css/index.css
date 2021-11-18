@@ -1,0 +1,46 @@
+/* Index page css */
+#landing-page-header{
+    
+
+}
+
+#landing-page-header > div{
+    min-height: 60vh;
+    height: inherit;
+    background-color: #284C38;
+    color: white;
+    background-image: url('../images/our-projects/martha-care-home/Ecomoran-organic-farm-session-1.jpg');
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+#landing-page-vision-mission{
+    background-color: ivory;
+}
+#landing-page-vision-mission > div{
+    min-height: 35vh;
+}
+
+
+
+#landing-page-social-media{
+    
+    background-color: rgb(253, 255, 220);
+}
+
+#landing-page-social-media > div{
+    height: 100%;
+    min-height: 5vh;
+    
+}
+
+
+#landing-page-learn > div{
+    min-height: 45vh;
+}
+
+#card-box-learn > div{
+    min-width: 300px;
+    max-width: 400px;
+    height: 100%;
+}
