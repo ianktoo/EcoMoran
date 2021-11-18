@@ -13,3 +13,8 @@ After cloning the repository, please run
 
 * Bootstrap
 * JQuery
+
+### Required 
+
+* Composer
+* NPM (Dependancy)
