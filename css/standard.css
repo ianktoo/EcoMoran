@@ -133,7 +133,12 @@ body{
 
 
 #landing-page-social-media{
-    background-color: rgb(206, 241, 189);
+    background-color: #07140d49;
+    background-image: url('../images/our-projects/martha-care-home/ecomoran-sign-language-session.jpg');
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-position: center;
+    color: #fff;
 }
 
 #landing-page-social-media > div{

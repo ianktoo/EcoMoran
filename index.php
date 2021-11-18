@@ -45,56 +45,51 @@ $currentPage = "Home";
 
 <!-- Hero Page section-->
 <section id="landing-page-header">
-  <div class="py-5" >
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <h1>Eco Moran: <br> 
-            Sustainable Education for Children
-          </h1>
-          <p>The Future is Bright Green</p>
-          <p><a href="https://ecomoran.wixsite.com/ecomoran" class="btn btn-outline-light">LEARN MORE</a></p>
-        </div>
 
-        <div class="col-sm-8">
+    
+      <div class="d-flex align-items-center justify-content-start p-5">
+          <div class="">
+            <h1>Eco Moran: <br> 
+              Sustainable Education for Children
+            </h1>
+            <p>The Future is Bright Green</p>
+            <div class="mt-4"><a href="https://ecomoran.wixsite.com/ecomoran" class="btn btn-outline-light">Learn More</a></div>
+          </div>
 
-        </div>
-      </div>
     </div>
-  </div>
+
 </section>
 
 
 
 <!-- Vision and Mission -->
-<section id="landing-page-vision-mission">
-<div class="container">
-  <div class="pt-5 text-muted text-center">
-    <h4>#WeAreEcoMoran!</h4>
+<section id="landing-page-vision-mission" class="py-5">
+  <div  class="container">
+
+  <div class="p-5 text-center">
+    <h4>We are EcoMoran</h4>
   </div>
-  <div class="row p-5 gx-2">
-    <div class="col-md-6">
-      <h5>Our Mission</h5>
+    <div class=" g-3 row justify-content-center align-items-strech row-cols-1 row-cols-sm-2">
+
+    <div class="p-3 col-sm-6 bg-white">
+      <h3>Our Mission</h3>
       <p>
-        To equip children with attitudes, values, knowledge, and 
-        skills necessary to rethink and change current and future 
-        patterns of action in order to ensure healthy, environmentally 
-        just and sustainable futures for all.
+
+      To equip children with attitudes, values, knowledge, and skills necessary to rethink and change current and future patterns of action in order to ensure healthy, environmentally just and sustainable futures for all.
+
+</p>
+    </div>
+
+    <div class="p-3 col-sm-6 brand-bg">
+      <h3>Our Vision</h3>
+      <p>
+      To achieve the goal of global sustainability and foster global citizenship by positively influencing, shaping and teaching tomorrow’s leaders, professionals, and innovators. 
       </p>
     </div>
 
-    <div class="col-md-6">
-      <h5>Our Vision</h5>
-      <p>
-        To achieve the goal of global sustainability and foster global 
-        citizenship by positively influencing, shaping and teaching 
-        tomorrow’s leaders, professionals, and innovators.
-      </p>
-    </div>
   </div>
-</div>
+  </div>
 </section>
-
 
 
 <?php include 'includes/social-media-follow.php';?>
@@ -106,7 +101,7 @@ $currentPage = "Home";
   <div class="text-center pt-4 pb-3">
     <h4 class="text-muted">#Our curriculum</h4>
   </div>
-    <div class="d-flex flex-wrap align-items-center justify-content-evenly p-3" id="card-box-learn" style="min-height:inherit;">
+    <div class="d-flex flex-wrap align-items-stretch justify-content-center p-3" id="card-box-learn" style="min-height:inherit;">
       <div class="border shadow-sm m-2 p-3">
         <h4>Knowledge</h4>
         <p class="lead">Our Curriculum</p>
