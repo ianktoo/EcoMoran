@@ -31,10 +31,22 @@ $currentPage = 'Our Curriculum';
     
     <!-- Content-->
 
+    <section class="pt-3 pb-0">
+        <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><?php echo $currentPage?></li>
+            </ol>
+        </nav>
+        </div>
+    </section>
+
     <section class="py-5" id="our-curriculum">
         <div class="container">
             <div class="row">
-                <div class="">
+                <div class=" col-md-9">
+                    <h3 class="text-muted py-3">#We Believe that...</h3>
                     <p>
                     Tomorrow’s leaders need to be equipped for tomorrow’s challenges, and we must adequately prepare our children for the future they will inherit. We have designed an interactive and engaging environmental education curriculum that includes outdoor and hands-on learning activities, games, quizzes, and art activities for a generation where more children are increasingly disconnected from nature as they have grown up indoors. Studies have also shown that environmental education can help children perform better in social studies, science, language arts, and math.
                     </p>
@@ -44,18 +56,23 @@ $currentPage = 'Our Curriculum';
                     </p>
                 </div>
 
+                <div class="d-md-block">
+
+                </div>
                
             </div>
         </div>
     </section>
 
-    <!-- notices -->
-    <?php include 'includes/default-notice.php';?>
-    <!-- notices -->
+    
 
 
     <?php include 'includes/social-media-follow.php';?>
 
+    <!-- notices -->
+    <?php include 'includes/default-notice.php';?>
+    <!-- notices -->
+    
     <!-- End content-->
     
     <!-- Footer -->
