@@ -10,6 +10,8 @@ $currentPage = "Home";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content='Eco Moran is an initiative that focuses on providing wholesome, informative, interactive and enjoyable environmental education to disadvantaged and marginalized children specifically between the ages of 6 and 12. "Moran" is a Maasai word that means "Warrior".'>
+    <meta name="keywords" content="Environmental Education, EcoMoran, curriculum,Eco Warrior, Children, Education">
 
     <meta property="og:title" content="EcoMoran Home" />
     <meta property="og:site_name" content="EcoMoran" />
