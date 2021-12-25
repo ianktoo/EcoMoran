@@ -24,7 +24,12 @@
             </div>
 
             <div class="col-sm-3">
-                
+                <ul class="footer-menu">
+                    <li>We are EcoMoran</li>
+                    <li><a href="#">Our Stories</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
             </div>
         </div>
 

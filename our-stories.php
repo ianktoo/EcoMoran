@@ -45,12 +45,19 @@ $currentPage = 'Our Stories';
     <section style="min-height:40vh;" class="py-5">
         <div class="container" >
             <div>
-            <p class="text-muted lead text-center">Oops! Looks like Our Stories are unavailable at the moment</p>
-            <p class="text-muted text-center"><small>You can check back a bit later. Feel free to take a look around.</small></p>
+                <h3 class="text-center text-muted">We are excited to share with you our stories.</h3>
+            </div>
+
+            
+
+            <div>
+
             </div>
             
         </div>
     </section>
+
+    <?php include 'includes/social-media-follow.php';?>
 
     <!-- End content-->
     

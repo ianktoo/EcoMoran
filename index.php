@@ -87,7 +87,7 @@ $currentPage = "Home";
 
       To equip children with attitudes, values, knowledge, and skills necessary to rethink and change current and future patterns of action in order to ensure healthy, environmentally just and sustainable futures for all.
 
-</p>
+  </p>
     </div>
 
     <div class="p-3 col-sm-6 brand-bg">
@@ -113,8 +113,8 @@ $currentPage = "Home";
   </div>
     <div class="d-flex flex-wrap align-items-stretch justify-content-center p-3" id="card-box-learn" style="min-height:inherit;">
       <div class="border shadow-sm m-2 p-3">
-        <h4>Knowledge</h4>
-        <p class="lead">Our Curriculum</p>
+        <h4><i class="bi bi-mortarboard-fill"></i> Knowledge</h4>
+        <p class="lead"></i>Our Curriculum</p>
         <p>
         Provide the children with new  insight and knowledge on different elements of the environment and nature.
         </p>
@@ -123,7 +123,7 @@ $currentPage = "Home";
 
       <div class=" border shadow-sm  m-2 p-3">
         
-        <h4>Skills</h4>
+        <h4><i class="bi bi-easel3-fill"></i> Skills</h4>
         <p class="lead">Our Curriculum </p>
         <p>
         Allow the children to learn new skills that can contribute to environmental as well as their own personal well-being.
@@ -132,7 +132,7 @@ $currentPage = "Home";
       </div>
 
       <div class=" border shadow-sm  m-2 p-3">
-        <h4>The Organic Garden</h4>
+        <h4><i class="bi bi-flower1"></i> The Organic Garden</h4>
         <p class="lead">Hands-on Activities </p>
         <p>We have set up an organic/kitchen garden in the establishment we are working at where the children have the responsibility to take care of the garden. We will be setting up a kitchen garden in each establishment we engage with.  </p>
         <p><a href="https://ecomoran.wixsite.com/ecomoran/blog" class="btn btn-outline-dark">Our Blog</a></p>

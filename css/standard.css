@@ -7,6 +7,21 @@
 * Author: Ian Too
 */
 
+
+/*
+    Nunito font
+*/
+
+@font-face {
+    font-family: "Nunito-Regular";
+    src: url("../fonts/Nunito/static/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Nunito-Black";
+    src: url("../fonts/Nunito/static/Nunito-Black.ttf");
+}
+
 .contact-bar{
     min-height: 35px;
     padding-top: 5px;
@@ -18,8 +33,14 @@
 
 /* Default font */
 body{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Nunito-Regular', sans-serif;
     height: 100%;
+    text-align: justify;
+    text-justify: auto;
+}
+
+h1, h2 {
+    font-family: "Nunito-Black";
 }
 
 .brand-bg{
