@@ -2,6 +2,7 @@
 
 // Current Page
 $currentPage = 'Projects';
+$content
 
 ?>
 <!DOCTYPE html>
@@ -29,11 +30,37 @@ $currentPage = 'Projects';
 
 
     <!-- Content-->
-    <div id="em-projects-content">
+    <div id="em-projects-content" class="py-5">
+        <div class="container">
+           <div class="row g-3  ">
+           <div class="col-sm-6">
+                <h1>It's Never easy <br> but we love it</h1>
+                <p class="">
+                    We love working with Kids!  
+                </p>
+            </div>
 
+
+            <div class="col-sm-6">
+                <h4 class="py-3 em-project-title">What we have <br>been working on</h4>
+                <div>
+                    <p class="em-project-item"><a href="https://ecomoran.wixsite.com/ecomoran/blog" target="_blank">Martha Care Project</a></p>
+                </div>
+
+                <div>
+                    <p class="em-project-item"><a href="https://ecomoran.wixsite.com/ecomoran/blog" target="_blank" >Msamaria Mwema Project</a></p>
+                </div>
+            </div>
+           </div>
+        </div>
     </div>
 
     <!-- End content-->
+
+
+    <!-- learn section -->
+    <?php include 'includes/learn-section.php';?>
+    <!-- learn section -->
 
     
     <!-- Footer -->

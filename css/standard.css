@@ -236,5 +236,13 @@ h1, h2 {
 }
 
 #em-projects-content{
-    min-height: 70vh;
+    min-height: 40vh;
+}
+
+.em-project-title{
+    font-weight: 800;
+}
+
+.em-project-item > a{
+    text-decoration: none;
 }
