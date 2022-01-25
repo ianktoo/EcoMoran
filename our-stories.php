@@ -37,24 +37,50 @@ $currentPage = 'Our Stories';
 <!-- Page Title Header -->
 <section class="py-5 cover-bg">
     <div class="container text-center ">
-        <h4>Our Stories</h4>
+        <h4>Our Story</h4>
         <p></p>
     </div>
 </section>
 
-    <section style="min-height:40vh;" class="py-5">
+    <section style="min-height:60vh;" class="py-5">
         <div class="container" >
-            <div>
-                <h3 class="text-center text-muted">We are excited to share with you our stories.</h3>
-            </div>
+            <article>
+                
+                <p>
+                EcoMoran wants to build a culture of sustainability and self- reliance among disadvantaged children, 
+                articularly children in children’s homes, by teaching them the skills and attitudes for living sustainably 
+                and protecting the environment for their health and the health of the planet. 
 
-            
+                </p>
+                
 
-            <div>
+                <p>
+                Through EcoMoran, the children will learn about the five pillars of environmental sustainability and gain 
+                sustainable skills such as composting, creating organic manure, kitchen gardens and growing vegetables. 
+                </p>
 
-            </div>
-            
+                <p>
+                They can sell the surplus organic manure and vegetables which will earn the homes extra sustainable income.
+                </p>
+
+                <p>
+                The knowledge and skills acquired by the children will enable them to create an environment of a sustainable home.  
+                The goal is to make children’s homes sustainable by teaching the children about the environment and how to live sustainably with the hope that these are attitudes and behaviors that they will take up even in the future as they grow up
+                </p>
+                
+
+            </article>            
         </div>
+    </section>
+
+
+    <section class="em-section-medium p-5 light-bg">
+        <blockquote>
+        If you are thinking a year ahead; plant a seed
+        If you are thinking a decade ahead; plant a tree
+        If you are thinking a century ahead; educate the people
+        </blockquote>
+
     </section>
 
     <?php include 'includes/social-media-follow.php';?>

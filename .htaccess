@@ -5,8 +5,11 @@ RewriteRule ^our-curriculum$ our-curriculum.php [NC]
 RewriteRule ^our-stories$ our-stories.php [NC]
 RewriteRule ^contact-us$ contact-us.php [NC]
 RewriteRule ^faqs$ faqs.php [NC]
+RewriteRule ^gallery$ gallery.php [NC]
 RewriteRule ^get-involved$ get-involved.php [NC]
-RewriteRule ^get-involved$ get-involved.php [NC]
+RewriteRule ^projects$ projects.php [NC]
+RewriteRule ^privacy-policy$ privacy-policy.php [NC]
+
 
 ErrorDocument 404 /errors/404.php
 ErrorDocument 403 /errors/403.php

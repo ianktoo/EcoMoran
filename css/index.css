@@ -1,6 +1,6 @@
 /* Index page css */
 #landing-page-header > div{
-    min-height: 65vh;
+    min-height: 90vh;
     height: inherit;
     background-color: #284C38;
     color: white;
@@ -11,15 +11,26 @@
 }
 
 #landing-page-vision-mission{
-    background-color: rgb(250, 250, 234);
+    background-color: #284C38;
+    color: #fff;
 }
 #landing-page-vision-mission > div{
     min-height: 40vh;
 }
 
 
+#landing-page-learn{
+    background-image: url('../svg/ecomoran-bg-svg.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
 #landing-page-learn > div{
-    min-height: 45vh;
+    min-height: 50vh;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    
 }
 
 #card-box-learn > div{

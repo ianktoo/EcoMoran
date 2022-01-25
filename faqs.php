@@ -10,6 +10,12 @@ $currentPage = 'FAQs';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Frequently Asked Questions" />
+    <meta property="og:site_name" content="EcoMoran" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url"content ="https://ecomoran.org/"/>
+    <meta property="og:description" content="Here's our frequently asked questions. We hope this helps you get to know us a little bit more." />
+    <meta property="og:image" content="https://ecomoran.org/images/brand/logos-plain-background/logo-on-green-bg.png" />
     <?php include 'includes/styles.php'?> 
     <?php include 'includes/google-analytics.php';?>
     <title>Eco Moran | <?php echo $currentPage?></title>
@@ -35,8 +41,8 @@ $currentPage = 'FAQs';
         <div class="container">
             <div>
                 <div>
-                <p class="text-muted lead text-center">Oops! Looks like Frequently asked questions are unavailable at the moment</p>
-                <p class="text-muted text-center"><small>You can check back a bit later. Feel free to take a look around.</small></p>
+                <p class="text-muted lead text-center">We are EcoMoran</p>
+                <p class="text-muted text-center"><small>We hope this helps you to get to know us a bit more.</small></p>
                 </div>
 
                 <div>
@@ -97,11 +103,11 @@ $currentPage = 'FAQs';
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                             How to become a Volunteer in ecom
                         </button>
                         </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             <p>
                                 If you believe in our cause to provide marginalized children with education 
@@ -129,9 +135,7 @@ $currentPage = 'FAQs';
 
 
 
-    <section style="">
-
-    </section>
+    <?php include 'includes/social-media-follow.php';?>
 
     
     <!-- Footer -->

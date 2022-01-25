@@ -170,3 +170,71 @@ h1, h2 {
 #our-curriculum{
     min-height: 60vh;
 }
+
+
+/* Section Height */
+.em-section-medium{
+    min-height:40vh;
+}
+
+.btn-brand{
+    margin-top: 10px;
+    padding: 7px 6px;
+    text-decoration: none;
+    border: #284C38 1px solid;
+    border-radius: 6px;
+    color: #284C38;
+    /*background-color: rgb(209, 228, 198);*/
+}
+
+.btn-brand:hover{
+    background-color: white;
+    color: #284C38;;
+}
+
+#gallery-body{
+    min-height: 90vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.em-single-album{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    background-color: #284C38;
+    color: #ddd;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px 10px;
+}
+
+.em-single-album > img{
+    height: 100%;
+    width: auto;
+    transition: 0.5s;
+    background-position: center center;
+}
+
+.em-single-album > p{
+    color: white;
+  font-size: 14px;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: inherit;
+  width: inherit;
+}
+
+.em-single-album > img:hover{
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+#em-projects-content{
+    min-height: 70vh;
+}

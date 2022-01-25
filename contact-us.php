@@ -31,32 +31,19 @@ $currentPage = 'Contact Us';
     </section>
 
 
-    <section class="py-5" style="min-height:60vh;">
+    <section class="py-5" style="min-height:40vh;">
         <div class="container">
             <div class="row g-3">
-                <div class="col-sm-9 p-3">
-        
-                    <form action="">
-                        <div class="mb-3">
-                            <label for="userEmail" class="form-label">Your Email address</label>
-                            <input type="email" class="form-control" id="userEmail" placeholder="name@example.com">
-                        </div>
+                <h3>Write to us!</h3>
+                <p>We'll be glad to hear from you!</p>
 
-                        <div class="mb-3">
-                            <label for="userFeedbackMessage" class="form-label">Message</label>
-                            <textarea class="form-control" id="userFeedbackMessage" rows="3"></textarea>
-                        </div>
-                    </form>
-
-                </div>
-
-
-                <div class="col-sm-3 p-3">
-                    
-                </div>
+                <p>Email: <a href="mailto:info@ecomoran.org">info@ecomoran.org</a> or <a href="mailto:ecomorann@gmail.com">ecomorann@gmail.com</a></p>
+                <p> <a href="https://twitter.com/EcoMoran?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @EcoMoran</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </section>
+
+    <?php include 'includes/social-media-follow.php';?>
 
 
     <!-- End content-->
@@ -66,7 +53,7 @@ $currentPage = 'Contact Us';
 
     <!-- Javascript -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script></p>
 
 </body>
 </html>

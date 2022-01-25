@@ -52,7 +52,25 @@ $currentPage = 'Our Curriculum';
                     </p>
 
                     <p>
-                    The learning experience is centered around the 5 pillars of sustainability: Food, Ecology, Water, Energy, and Waste; while also helping the children to understand the concept of the Sustainable Development Goals. The curriculum has been developed to include the topic of waste in each of the other pillars. This will be done in a way that is understandable and enjoyable for the children. In this way, we will be able to cover the key aspects of the environmental education experience and that is to change attitudes, provide knowledge, impart skills, develop responsibility, encourage friendship and inspire a generation to act.
+                    The learning experience is centered around the 5 pillars of sustainability:
+                    
+                    <ul>
+                        <li>Food</li>
+                        <li>Ecology</li>
+                        <li>Water</li>
+                        <li>Energy</li>
+                        <li>Waste</li>
+                    </ul>
+                    while also helping the children 
+                    to understand the concept of the <a href="https://www.undp.org/sustainable-development-goals">Sustainable Development Goals</a>. 
+                    </p>
+
+                    <p>
+                    The curriculum has been developed to include the topic of waste in each of the other pillars. 
+                    This will be done in a way that is understandable and enjoyable for the children. 
+                    In this way, we will be able to cover the key aspects of the environmental education 
+                    experience and that is to change attitudes, provide knowledge, impart skills, develop 
+                    responsibility, encourage friendship and inspire a generation to act.
                     </p>
                 </div>
 
