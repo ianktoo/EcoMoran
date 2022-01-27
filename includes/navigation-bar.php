@@ -23,7 +23,7 @@
             <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Home') echo 'active'; ?>" aria-current="page" href="index.php">Home</a>
           </li>
 
-          <li class="nav-item dropdown">
+          <!--li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="whatWeDo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Our Work
             </a>
@@ -35,14 +35,26 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item <?php if(isset($currentPage) && $currentPage == 'Get Involved') echo 'active'; ?>" href="get-involved">Get Involved</a></li>
               <li><a class="dropdown-item <?php if(isset($currentPage) && $currentPage == 'About Us') echo 'active'; ?>" href="about-us">About Us!</a></li>
             </ul>
-          </li>
-        
+          </li-->
           <li class="nav-item">
-            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Our Curriculum') echo 'active'; ?>" href="#">Volunteer</a>
+            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Our Projects') echo 'active'; ?>" href="./projects.php">Projects</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Gallery') echo 'active'; ?>" href="./gallery.php">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'FAQs') echo 'active'; ?>" href="./faqs.php">FAQs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Get Involved') echo 'active'; ?>" href="./get-involved.php">Get Involved</a>
+          </li>
+
+          
         </ul>
       </div>
     </div>
