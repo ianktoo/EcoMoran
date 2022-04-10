@@ -9,6 +9,7 @@
         "nesbot/carbon": "^2.53",
         "monolog/monolog": "^2.3",
         "aura/session": "^2.1",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "kattsoftware/firesessions": "1.1"
     }
 }

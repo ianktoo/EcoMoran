@@ -1,6 +1,8 @@
 <?php
 require 'vendor/autoload.php';
 
+require 'includes/sessions/sessions.php';
+
 $currentPage = "Home";
 
 ?>
