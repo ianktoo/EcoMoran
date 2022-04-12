@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37ce5176c8cc1b716949ae8a062a4e8e",
+    "content-hash": "af33524ebb3244c19da29f1a14406bc0",
     "packages": [
         {
             "name": "aura/session",
@@ -71,6 +71,51 @@
                 "source": "https://github.com/auraphp/Aura.Session/tree/2.x"
             },
             "time": "2016-10-03T20:28:32+00:00"
+        },
+        {
+            "name": "kattsoftware/firesessions",
+            "version": "v1.1.0-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kattsoftware/FireSessions.git",
+                "reference": "d9c6825734c12786560fad3d0f5f582648e26b21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kattsoftware/FireSessions/zipball/d9c6825734c12786560fad3d0f5f582648e26b21",
+                "reference": "d9c6825734c12786560fad3d0f5f582648e26b21",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.8"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "v1.6.5",
+                "phpunit/phpunit": "^4.8 || ^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FireSessions\\": "src/FireSessions/",
+                    "FireSessions\\Tests\\": "tests/FireSessions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "George Petculescu",
+                    "email": "opensource@kattsoftware.com"
+                }
+            ],
+            "description": "PHP Sessions management library",
+            "support": {
+                "issues": "https://github.com/kattsoftware/FireSessions/issues",
+                "source": "https://github.com/kattsoftware/FireSessions/tree/master"
+            },
+            "time": "2017-08-16T18:46:22+00:00"
         },
         {
             "name": "monolog/monolog",
