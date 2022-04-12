@@ -39,7 +39,7 @@
             </ul>
           </li-->
           <li class="nav-item">
-            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Our Projects') echo 'active'; ?>" href="./projects.php">Projects</a>
+            <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Projects') echo 'active'; ?>" href="./projects.php">Projects</a>
           </li>
 
           <li class="nav-item">
@@ -53,6 +53,19 @@
           <li class="nav-item">
             <a class="nav-link <?php if(isset($currentPage) && $currentPage == 'Get Involved') echo 'active'; ?>" href="./get-involved.php">Get Involved</a>
           </li>
+
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
 
           
         </ul>

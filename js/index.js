@@ -7,3 +7,5 @@
 $(function(){
     console.log('Document is ready');
 });
+
+// check if document is loaded

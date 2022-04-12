@@ -246,3 +246,13 @@ h1, h2 {
 .em-project-item > a{
     text-decoration: none;
 }
+
+
+#em_social_media_links {
+    list-style-type: none;
+}
+
+#em_social_media_links > li {
+    display: inline;
+    padding: 10px;
+}
